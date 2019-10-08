@@ -54,3 +54,4 @@ print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did I use %r instead of %s
+("%r displays the contents that the variables represent while %s converts coding to a string.")
