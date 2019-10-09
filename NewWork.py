@@ -109,6 +109,7 @@ I'llmake a list:
 #       for i in["/","-","|, "\\", "|"
 #       print("%s\r" % i, end='')
 
+# can you replace """ with '''?
 
 
 
