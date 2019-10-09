@@ -59,7 +59,7 @@ print(formatter % (formatter, formatter, formatter, formatter))
 #Time foe some strange stuff in the world of printin...
 
 days= "Mon Tue Wed Thu Fri Sat Sun"
-months="Jan\Feb\Mar\Apr\May\Jun\Jul\Aug\Sep\Oct\Nov\Dec"
+months="Jan\nFeb\nMar\nApr\nMay\nJun\nJul\Aug"
 
 print("Here are the days" , days)
 print("here are the months" ,months)
