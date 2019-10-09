@@ -64,5 +64,54 @@ months="Jan\Feb\Mar\Apr\May\Jun\Jul\Aug\Sep\Oct\Nov\Dec"
 print("Here are the days" , days)
 print("here are the months" ,months)
 
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5 or 6
+""")
+
+#What if I didn't like Jan ding listed on the line with thw rest of the
+#text and away from the othr months? How could I fix this?
+
+# More Escaping
+
+tabbyCat = "\tI'm tabbed in"
+persianCat = "I'm split\non a line"
+backslashCat = "I'm \\ a \\ cat"
+
+taskCat = """
+I'llmake a list:
+\t*Cat food
+\t*Fishies
+\\*Catnip\n\t* Grass
+"""
+
+#Escape Seq
+#\\
+#\'
+#\"
+#\a
+#\b
+#\f
+#\n
+#\N
+#\r
+#\t
+#\uxxxx
+#\Uxxxxxxxx
+#\v
+#\ooo
+#\xhh
+
+# Whats the following code do
+#  While True:
+#       for i in["/","-","|, "\\", "|"
+#       print("%s\r" % i, end='')
+
+
+
+
+
 
 
