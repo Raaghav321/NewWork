@@ -88,28 +88,28 @@ I'llmake a list:
 """
 
 #Escape Seq
-#\\
-#\'
-# #\"
-#\a
-#\b
-#\f
-#\n
-#\N
-#\r
-#\t
-#\uxxxx
-#\Uxxxxxxxx
-#\v
-#\ooo
-#\xhh
+#\\-version integrater
+#\'-adds aprostrophies
+# #\"-adds quotations
+#\a-adds a little box
+#\b-gets rid of letter before it
+#\f-adds a little box
+#\n-splits line
+#\N-
+#\r-ignores rest of sentence when putting in
+#\t-bullet points
+#\uxxxx-no purpose
+#\Uxxxxxxxx-no purpose
+#\v- adds a litlle box
+#\ooo-printed on line written
+#\xhh-no purpose
 
-# Whats the following code do
+# Whats the following code do: The first code displays content.
 #  While True:
 #       for i in["/","-","|, "\\", "|"
 #       print("%s\r" % i, end='')
 
-# can you replace """ with '''?
+# can you replace """ with '''? yes because the 3 commas indicate a string
 
 
 #Asking Questions
