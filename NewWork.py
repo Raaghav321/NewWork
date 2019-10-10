@@ -90,7 +90,7 @@ I'llmake a list:
 #Escape Seq
 #\\
 #\'
-#\"
+# #\"
 #\a
 #\b
 #\f
@@ -111,6 +111,13 @@ I'llmake a list:
 
 # can you replace """ with '''?
 
+
+#Asking Questions
+
+age=input("How old are you")
+height=input("How tall are you")
+
+print("so your really %r old and %r tall? Wow..." % (age,height))
 
 
 
